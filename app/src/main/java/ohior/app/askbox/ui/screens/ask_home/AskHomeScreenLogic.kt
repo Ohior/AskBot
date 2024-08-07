@@ -44,6 +44,7 @@ class AskHomeScreenLogic(context: Context) : ViewModel() {
 
     var showNotification by mutableStateOf(false)
 
+    // load previous AI chat to history
     private val chatInstance by lazy { AskBotAI.initializeChat(
         DatabaseManager.getAllmesage()
             .map {

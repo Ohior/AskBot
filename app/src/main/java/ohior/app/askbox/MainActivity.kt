@@ -1,10 +1,8 @@
 package ohior.app.askbox
 
-import android.graphics.Color
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.ComponentActivity
-import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.background
@@ -18,8 +16,7 @@ import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.statusBarsPadding
-import androidx.compose.material.AlertDialog
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -197,7 +194,7 @@ class MainActivity : ComponentActivity() {
     private fun ConfirmDeletePopup(showDeletePopup: Boolean, onDismiss: () -> Unit) {
         if (showDeletePopup) {
             AlertDialog(
-                backgroundColor = MaterialTheme.colorScheme.background,
+                containerColor = MaterialTheme.colorScheme.background,
                 onDismissRequest = { onDismiss() },
                 confirmButton = {
                     TextButton(onClick = {

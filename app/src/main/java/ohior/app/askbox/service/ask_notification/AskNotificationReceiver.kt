@@ -1,11 +1,9 @@
 package ohior.app.askbox.service.ask_notification
 
-import android.app.NotificationManager
 import android.app.RemoteInput
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import android.widget.Toast
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -14,6 +12,7 @@ import ohior.app.askbox.service.AskBotAI
 
 class AskNotificationReceiver : BroadcastReceiver() {
     private val scope = CoroutineScope(Dispatchers.IO)
+
     override fun onReceive(context: Context, intent: Intent) {
 
         if (isNetworkAvailable(context)) {
