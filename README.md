@@ -32,7 +32,8 @@ AskBot is an innovative Android application that features two distinct types of 
     - Click on the `Run` button or press `Shift + F10`.
 
 5. **Run On Device**
-    - Download the APK from [here]().
+    - Download the APK from [here](https://github.com/Ohior/AskBot/releases/download/ask_bot_v_2.0.0/app-debug.apk).
+    - Check the release note from [here](https://github.com/Ohior/AskBot/releases/tag/ask_bot_v_2.0.0).
     - When it is installed click on the app and run it.
     - Depending in your device you may need to grant notification permission
 
