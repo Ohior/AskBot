@@ -9,12 +9,13 @@ AskBot is an innovative Android application that features two distinct types of 
 - **Query AI**: Provides instant answers to your questions without retaining any memory of previous queries.
 - **User-Friendly Interface**: Easy-to-navigate design for seamless user experience.
 - **Lightweight and Fast**: Optimized for quick response times and minimal resource usage.
+- **Notification**: Quick way to chat with the AI, through notification.
 
 ## Installation
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/askbot.git
+   git clone https://github.com/Ohior/AskBot.git
    ```
 
 2. **Open the Project in Android Studio**
@@ -30,18 +31,23 @@ AskBot is an innovative Android application that features two distinct types of 
     - Connect your Android device or start an emulator.
     - Click on the `Run` button or press `Shift + F10`.
 
+5. **Run On Device**
+    - Download the APK from [here]().
+    - When it is installed click on the app and run it.
+    - Depending in your device you may need to grant notification permission
+
 ## Usage
 
 ### Chat AI
 
-- Open the app and select the Chat AI option.
+- Open the app and click on the app icon to toggle between chat and query
 - Start typing your message in the chat-box.
 - The AI will respond, keeping track of the conversation context.
 - Continue the conversation, and the AI will remember previous messages to provide more relevant responses.
 
 ### Query AI
 
-- Open the app and select the Query AI option.
+- Open the app and click on the app icon to toggle between chat and query
 - Type in your question in the query box.
 - The AI will provide an immediate response based on the question.
 - Ask a new question, and the AI will not retain any memory of the previous interaction.
